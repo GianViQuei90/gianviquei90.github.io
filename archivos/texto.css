@@ -1,0 +1,31 @@
+@font-face{
+    font-family: "logotext";
+    src: url("./Billy\ Signature.otf");
+}
+.titulo{
+    font-family: 'kanit';
+    color: purple;
+}
+
+h2{
+    font-family: "logotext";
+}
+
+.parrafo1{
+    font-family: 'kanit';
+    text-align: center;
+    line-height: 60px;
+}
+
+.parrafo3{
+    font-family: "logotext";
+    font-weight: 100;
+    word-spacing: 25px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+}

@@ -1,0 +1,50 @@
+li:first-child{
+    color: red;
+    text-decoration: underline;
+}
+
+li:nth-child(3){
+    color: gray;
+    font-weight: bold;
+}
+
+li:last-child{
+    color: green;
+}
+
+tbody tr:nth-child(odd){
+    background-color: gray;
+}
+
+.tabla1 tr:nth-child(even){
+    background-color: red;
+    color: white;
+}
+
+thead tr th:nth-of-type(1){
+    background-color: red;
+    color: white;
+}
+
+/* excepcion */
+
+p:not(#exception){
+    background-color: seagreen;
+
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    background-color: turquoise;
+}
+
+/* hover */
+
+button:hover{
+    background-color: coral;
+    color: white;
+}
+
+input[type="number"]::placeholder{
+    color: brown;
+}

@@ -1,0 +1,26 @@
+h1{
+    color: purple;
+}
+
+h2{
+    color: purple;
+}
+
+section{
+    border-radius:10px;
+
+}
+
+form{
+    color:green;
+    
+}
+
+input{
+    color: blue;
+    border-style: solid ;
+}
+
+input::placeholder{
+    color: blue;
+}

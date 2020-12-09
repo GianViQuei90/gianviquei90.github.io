@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+    <main>
+        <section>
+            <h3>Formularios de registros</h3>
+            <form action="">
+                <fieldset>
+                    <legend>Datos obligatorios</legend>
+                    <p>
+                        <label for="nombres">
+                            Nombres:
+                        </label>
+                        <input type="text" 
+                        placeholder="Ej. Giancarlo Villalobos "
+                        id="nombres"
+                        >
+                    </p>
+                    <p>
+                        <label for="apellidos">
+                            Apellidos:
+                        </label>
+                        <input type="text"
+                        placeholder="Ej. Villalobos Queirolo"
+                        id="apellidos">
+                    </p>
+                    <p>
+                        <label for="correo">
+                            E-mail:
+                        </label>
+                        <input type="email"
+                        placeholder="Ej. giancarlo.villalobos@hotmail.com"
+                        id="correo">
+                    </p>
+                    <p>
+                        <label for="">
+                            Edad:
+                        </label>
+                        <input type="number"
+                        placeholder="Ej. 30"
+                        min="18"
+                        max="70">
+                    </p>
+                    <p>
+                        <label for="">
+                            Fecha:
+                        </label>
+                        <input type="date">
+                    </p>
+                    <p>
+                        <label for="">
+                            Contraseña:
+                        </label>
+                        <input type="password"
+                        placeholder="Ingrese una contraseña segura">
+                    </p>
+                </fieldset>
+                <!-- Datos adicionales -->
+                <fieldset>
+                    <legend>Datos adicionales</legend>
+                    <p>
+                        <label for="">
+                            Color favorito:
+                        </label>
+                        <input type="color">
+                    </p>
+                    <p>
+                        <label for="">
+                            Adjuntar foto:
+                        </label>
+                        <input type="file">
+                    </p>
+                    <p>
+                        <label for="">
+                            Indicanos tu genero:
+                        </label>
+                        <input type="radio" name="genero"> Masculino
+                        <input type="radio" name="genero"> Femenino
+                        <input type="radio" name="genero"> No divulgar
+                    </p>
+                    <p>
+                        <label for="">
+                            Cuentanos tus hobbies:
+                        </label>
+                        <input type="checkbox">Escuchar Música
+                        <input type="checkbox">Manejar Bici
+                        <input type="checkbox">Dotear
+                        <input type="checkbox">Leer un libro
+                        <input type="checkbox">Tocar guitarra
+                        <input type="checkbox">Correr
+                        <input type="checkbox">Ver peliculas
+                    </p>
+                    <p>
+                        <label for="">
+                            Selecciona tu departamento:
+                        </label>
+                        <select name="" id="">
+                            <option value="AR">Arequipa</option>
+                            <option value="AR">Lima</option>
+                            <option value="AR">Piura</option>
+                            <option value="AR">Tumbes</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="">
+                            Cuentanos acerca de ti:
+                        </label>
+                        <textarea name="" id="" cols="60" rows="10" placeholder="Escribe aquí"></textarea>
+                    </p>
+                    <p>
+                        <label for="">
+                            Ingresa la cantidad de miembros en tu familia:
+                        </label>
+                        <input type="range">
+                    </p>
+                </fieldset>
+                <input type="submit" value="Enviar Formulario">
+                <input type="reset" value="Limpiar Formulario">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

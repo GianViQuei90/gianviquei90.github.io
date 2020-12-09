@@ -1,0 +1,12 @@
+
+h1,h2{
+    color: rebeccapurple;
+}
+ul li{
+    text-decoration: underline;
+    color: rebeccapurple;
+}
+
+ol>li{
+    color: steelblue;
+}

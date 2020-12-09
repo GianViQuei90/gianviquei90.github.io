@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 600px;
+    height: 500px;
+    background-color: #555;
+    margin: 50px auto 0 auto;
+    box-shadow: 5px 6px 15px gray;
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    background: #ff2244;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    /* alternatica 1 */
+    /* top: calc(50% - 50px);
+    left: calc(50% - 50px); */
+/* aleternativa 2 */
+    transform: translate(-50%, -50%);
+}

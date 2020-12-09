@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px lightgray;
+    margin: 50px auto;
+    transition: all 0.6s ease-in-out;
+}
+
+.section1:hover{
+    border-radius: 5px;
+    background-color: rgb(211, 224, 187);
+    transform: translate(0px, -5px);
+}
+
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    transition: all 1.5s  ease-in;
+}
+
+.cuadrado:hover{
+    border-radius: 50%;
+}
+
+.section2{
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px lightgray;
+    margin: 50px auto;
+}
+
+.section2:hover{
+    box-shadow: 0 0 20px lightpink;
+}
+
+.persiana{
+    background-color: steelblue;
+    height: 0px;
+    transition: all 1.2s ease-out;
+}
+
+.section2:hover .persiana{
+    height: 300px;
+}

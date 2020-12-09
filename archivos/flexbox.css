@@ -1,0 +1,100 @@
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+.contenedor {
+    display: flex;
+    background-color: darkred;
+    height: 60px;
+    /*
+    justified-content:  alinea los elementos en el eje 
+    principal
+    ¿cual es el eje principal?
+
+    todo depende de la propiedad:
+    flex-direction: row; (valor por defecto cuando se
+    coloca flex)
+    row: todos los hijos flexibles se ubican en una sola fila
+    row: el eje principal es el eje x
+    */
+    justify-content: space-evenly;
+    /*alinea los elemento en el eje secundario
+    cual es eje secundario?
+    cuando flex-direction: row > el eje secundario es y;
+    cuando flex-direction: column > el eje secundario es x*/
+    align-items: center;
+}
+
+.contenedor > div {
+    /* width: 150px; */
+    flex: 1;
+    height: 20px;
+}
+
+div.hijo-2{
+    flex: 3;
+}
+
+.contenedor > div:nth-child(even){
+    background-color: #eee;
+
+}
+
+.contenedor > div:nth-child(odd){
+    background-color: rgb(172, 167, 167);
+
+}
+
+.noticias{
+    background-color: rgb(226, 113, 179);
+    height: calc(100vh - 60px);
+    display: flex;
+}
+
+.noticias__menu{
+    width: 240px;
+}
+
+.noticias__contenedor{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* asummamos que flex-direction: row ;
+    */
+    /* 
+    Otra propiedad por defecto en los padres flexibles
+    es:
+    flex-wrap: no wrap
+    ¿que significa?
+    no-wrap=> los elementos nunca colapsan (es decir,
+    generan nuevas filas)
+    wrap=> los elementos colapsan cuando el ancho del 
+    padre es superado por el ancho de los hijos
+    */
+    flex-wrap: wrap;
+    border: 5px solid darkblue;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* 
+    align-content=> alinea a los hijos flexibles cuando
+    estos colapsan;
+    */
+    align-content: flex-start;
+}
+
+.noticias__noticia{
+    width: 200px;
+    background-color: cornflowerblue;
+    height: 100px;
+    margin: 20px;
+}
+
+body{
+    min-height: 100vh;
+    /*el body no lleva borde 
+    border: 5px solid blue; */
+}
+
+

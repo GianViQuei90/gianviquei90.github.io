@@ -1,0 +1,8 @@
+body{
+    background-color: #210c22;
+}
+.btn{
+    background-color: transparent;
+    border: 2px solid rgb(44, 214, 29);
+    color: rgb(44, 214, 29);
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    background-color: turquoise;
+    height: 300px;
+}
+
+.section2{
+    height: 500px;
+    background-color: gray;
+    background-image: url('./fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed;
+    overflow: hidden; */
+}
+
+.section3{
+    height: 100px;
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+}
+
+.section4{
+    height: 200px;
+    background-image: linear-gradient(to top, purple, red);
+}
+
+.section5{
+    height: 200px;
+    background-image: radial-gradient(circle, orange, green);
+}

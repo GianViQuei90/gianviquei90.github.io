@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.titulo{
+    text-align: center;
+    margin: 19px auto;
+    color: brown;
+    font-family: 'Grandstander', cursive;;
+}
+
+.contenedor{
+    width: 500px;
+    height: 410px;
+    padding: 0;
+    margin: 50px auto auto auto;
+    border: 1px solid rgb(231, 233, 231);
+    border-radius: 10px;
+    box-shadow: 2px 0 1px 2px rgb(231, 233, 231);;
+}
+
+
+
+form>input{
+    background-color: #fff;
+    width: 95%;
+    margin: 0 0 5px 10px;
+    border: honeydew;
+    box-shadow:  0 1px 0 0 rgb(231, 233, 231);
+}
+
+form>label{
+    margin: 0 0 0 15px;
+    font-family: 'Turret Road', cursive;
+    color: brown;
+}

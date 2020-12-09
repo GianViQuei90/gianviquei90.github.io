@@ -1,0 +1,29 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    border-radius: 10px;
+}
+
+.form-personal{
+    background-color: coral;
+}
+
+.form-social{
+    background-color: steelblue;
+}
+.form-profesional{
+    background-color: aquamarine;
+}
+
+.inputsteam{
+    background-color: darkblue;
+    color: white;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    background-color: lightblue;
+}

@@ -1,0 +1,22 @@
+h2{
+    color: indigo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    color: #3047b0;
+    background-color: skyblue;
+}
+article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.destacado{
+    text-decoration: underline;
+    color: yellow;
+}
+
+#contacto{
+    background-color: tomato;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
